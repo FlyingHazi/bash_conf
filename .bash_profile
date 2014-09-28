@@ -1,6 +1,6 @@
 if [ -r ~/.bash_env ]; then
-	. .bash_env
+	. ~/bash_env
 fi
 if [ -r ~/.bash_sh ]; then
-	bash .bash_sh
+	bash ~/bash_sh
 fi
